@@ -2,25 +2,23 @@ galaxy_info:
   author: Paul Myjvec
   description: Module to manage Chrony on Linux
   license: license (MIT)
-  min_ansible_version: 2.4
+  min_ansible_version: 2.3
   platforms:
-   - name: EL
-     versions:
-      - 6
-      - 7
-   - name: Debian
-     versions:
-      - 'stretch'
-   - name: Ubuntu
-     versions:
-      - '16.04'
-      - '16.10'
-      - '17.04'
-      - '17.10'
-
+    - name: 'debian-stretch'
+    - name: 'ubuntu-16.10'
+    - name: 'ubuntu-16.04'
+    - name: 'centos-7'
+    - name: 'centos-6'
   galaxy_tags:
     - 'chrony'
     - 'system'
     - 'ntp'
+    - 'ntpd'
+    - 'aws'
+    - 'networking'
+    - 'linux'
+    - 'ubunu'
+    - 'debian'
+    - 'centos'
 
 dependencies: []
