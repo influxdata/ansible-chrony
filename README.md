@@ -5,7 +5,7 @@ Manages the Chrony services on Linux.
 
 Chrony is a service for keeping your servers time in sync, similar to NTPd, see https://chrony.tuxfamily.org/ for more.
 
-_This role will use the AWS Time Sync server by default, see: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html
+_This role will use the AWS Time Sync server by default, see: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html_
 
 Requirements
 ------------
