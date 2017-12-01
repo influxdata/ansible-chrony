@@ -1,0 +1,26 @@
+galaxy_info:
+  author: Paul Myjvec
+  description: Module to manage Chrony on Linux
+  license: license (MIT)
+  min_ansible_version: 2.4
+  platforms:
+   - name: EL
+     versions:
+      - 6
+      - 7
+   - name: Debian
+     versions:
+      - 'stretch'
+   - name: Ubuntu
+     versions:
+      - '16.04'
+      - '16.10'
+      - '17.04'
+      - '17.10'
+
+  galaxy_tags:
+    - 'chrony'
+    - 'system'
+    - 'ntp'
+
+dependencies: []
