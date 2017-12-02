@@ -1,14 +1,21 @@
+---
 galaxy_info:
   author: Paul Myjvec
   description: Module to manage Chrony on Linux
   license: license (MIT)
   min_ansible_version: 2.3
   platforms:
-    - name: 'debian-stretch'
-    - name: 'ubuntu-16.10'
-    - name: 'ubuntu-16.04'
-    - name: 'centos-7'
-    - name: 'centos-6'
+  - name: 'Ubuntu'
+    versions:
+    - 'xenial'
+    - 'zesty'
+  - name: 'Debian'
+    versions:
+    - 'jessie'
+    - 'stretch'
+  - name: 'EL'
+    versions:
+    - '7'
   galaxy_tags:
     - 'chrony'
     - 'system'
@@ -20,5 +27,4 @@ galaxy_info:
     - 'ubunu'
     - 'debian'
     - 'centos'
-
 dependencies: []
