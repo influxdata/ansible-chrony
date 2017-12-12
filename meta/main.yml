@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: Paul Myjvec
-  description: Module to manage Chrony on Linux
-  license: license (MIT)
+  author: 'Paul Myjvec'
+  description: 'Module to manage Chrony on Linux'
+  license: 'license (MIT)'
   min_ansible_version: 2.3
   platforms:
   - name: 'Ubuntu'

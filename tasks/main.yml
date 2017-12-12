@@ -5,6 +5,6 @@
     - 'chrony'
     - 'chrony-vars'
 
-- include_tasks: "install_{{ ansible_os_family | lower}}.yml"
-- include_tasks: "configure.yml"
-- include_tasks: "service.yml"
+- include: "install_{{ ansible_os_family | lower}}.yml"
+- include: "configure.yml"
+- include: "service.yml"
