@@ -1,6 +1,6 @@
 ---
 chrony_service_enabled: 'yes'
-chrony_service_state: 'running'
+chrony_service_state: 'started'
 chrony_service_name: 'chrony'
 chrony_conf_file: '/etc/chrony/chrony.conf'
 chrony_keyfile: '/etc/chrony/chrony.keys'
