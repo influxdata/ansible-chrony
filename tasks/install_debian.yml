@@ -1,8 +1,0 @@
----
-- name: '{{ ansible_os_family }} - Install Chrony'
-  apt:
-    name: 'chrony'
-    state: 'present'
-  tags:
-    - 'chrony-install'
-    - 'chrony'

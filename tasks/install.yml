@@ -1,6 +1,6 @@
 ---
-- name: '{{ ansible_os_family }} - Install Chrony'
-  yum:
+- name: 'Install Chrony'
+  package:
     name: 'chrony'
     state: 'present'
   tags:
