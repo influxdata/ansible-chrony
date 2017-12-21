@@ -1,6 +1,8 @@
 Chrony
 =========
 
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-influxdata.chrony-blue.svg)](https://galaxy.ansible.com/influxdata/chrony/)
+
 Manages the Chrony services on Linux.
 
 Chrony is a service for keeping your servers time in sync, similar to NTPd, see https://chrony.tuxfamily.org/ for more.
