@@ -1,5 +1,6 @@
 ---
 - name: 'Manage the chrony service'
+  become: yes
   service:
     name: '{{ chrony_service_name }}'
     enabled: '{{ chrony_service_enabled }}'

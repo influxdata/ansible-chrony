@@ -1,5 +1,6 @@
 ---
 - name: '{{ ansible_os_family }} - Install Chrony'
+  become: yes
   apt:
     name: 'chrony'
     state: 'present'
