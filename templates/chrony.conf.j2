@@ -21,6 +21,9 @@ dumponexit
 
 
 dumpdir {{ chrony_dumpdir }}
+{% if chrony_initstepslew %}
+initstepslew {{ chrony_initstepslew_threshold }} {{ chrony_initstepslew_servers }}
+{% endif %}
 
 # This directive lets 'chronyd' to serve time even if unsynchronised to any
 # NTP server.

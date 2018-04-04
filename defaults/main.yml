@@ -12,3 +12,6 @@ chrony_log: 'tracking measurements statistics'
 chrony_logdir: '/var/log/chrony'
 chrony_maxupdateskew: 100.0
 chrony_dumpdir: '/var/lib/chrony'
+chrony_initstepslew: false
+chrony_initstepslew_threshold: 30
+chrony_initstepslew_servers: '169.254.169.123'
