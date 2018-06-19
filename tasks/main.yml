@@ -5,6 +5,6 @@
     - 'chrony'
     - 'chrony-vars'
 
-- import_tasks: "install_{{ ansible_os_family | lower}}.yml"
+- import_tasks: "install.yml"
 - import_tasks: "configure.yml"
 - import_tasks: "service.yml"
