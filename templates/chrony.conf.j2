@@ -1,6 +1,14 @@
 # {{ ansible_managed }}
 # See https://chrony.tuxfamily.org/documentation.html for details on this file
 
+{% if chrony_port %}
+port {{ chrony_port }}
+{% endif %}
+
+{% if chrony_acquisitionport %}
+acquisitionport {{ chrony_acquisitionport }}
+{% endif %}
+
 {% if chrony_pool %}
 pool {{ chrony_pool }}
 {% endif %}
@@ -32,7 +40,6 @@ initstepslew {{ chrony_initstepslew_threshold }} {{ chrony_initstepslew_servers 
 
 # This directive designates subnets (or nodes) from which NTP clients are allowed
 # to access to 'chronyd'.
-
 #allow foo.example.net
 #allow 10/8
 #allow 0/0 (allow access by any IPv4 node)
