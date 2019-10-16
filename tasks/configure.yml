@@ -1,4 +1,12 @@
 ---
+- name: 'Get version'
+  shell: "aptitude versions chrony | grep '^i' | awk '{print $2}'"
+  check_mode: no
+  register: register_version
+
+- debug:
+    var: register_version.stdout
+
 - name: 'Configure Chrony'
   become: yes
   template:
