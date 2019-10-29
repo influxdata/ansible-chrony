@@ -1,4 +1,5 @@
 ---
+chrony_allow_ntp_protocol: 'yes'
 chrony_service_enabled: 'yes'
 chrony_service_state: 'started'
 chrony_service_name: 'chrony'

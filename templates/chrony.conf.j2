@@ -1,6 +1,10 @@
 # {{ ansible_managed }}
 # See https://chrony.tuxfamily.org/documentation.html for details on this file
 
+{% if chrony_allow_ntp_protocol %}
+allow 127/8
+{% endif %}
+
 {% if chrony_pool %}
 pool {{ chrony_pool }}
 {% endif %}
