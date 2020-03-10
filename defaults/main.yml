@@ -1,4 +1,7 @@
 ---
+chrony_port: 123
+chrony_acquisitionport: 1123
+chrony_allow:
 chrony_service_enabled: 'yes'
 chrony_service_state: 'started'
 chrony_service_name: 'chrony'
