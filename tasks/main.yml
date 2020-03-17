@@ -5,6 +5,6 @@
     - 'chrony'
     - 'chrony-vars'
 
-- include: "install.yml"
-- include: "configure.yml"
-- include: "service.yml"
+- import_tasks: "install.yml"
+- import_tasks: "configure.yml"
+- import_tasks: "service.yml"
