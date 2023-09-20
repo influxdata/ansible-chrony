@@ -8,3 +8,6 @@
 - include: "install.yml"
 - include: "configure.yml"
 - include: "service.yml"
+
+- name: flush handlers
+  meta: flush_handlers

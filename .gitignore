@@ -2,3 +2,4 @@
 .bundle/
 .gems/
 .kitchen
+*~undo-tree~
